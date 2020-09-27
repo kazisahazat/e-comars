@@ -1,0 +1,1045 @@
+/*====================== Extra small devices 
+================================================================*/
+@media (max-width: 479.98px) {
+
+    /*========== Top_hadding part start ==========*/
+    #top_hadding {
+        top: 41px;
+        padding-top: 11px;
+        padding-bottom: 26px;
+    }
+
+    .logo a img {
+        padding-top: 0;
+    }
+
+    .logo {
+        width: 24%;
+    }
+
+    .search_box {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .search_box .dropdown {
+        width: 116px;
+    }
+
+    .menu {
+        position: relative;
+        top: 16px;
+        display: inline block;
+    }
+
+    .search_box .search_field .input {
+        width: 78%;
+        height: 100%;
+        border: 0px;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        left: -13px;
+    }
+
+    .search_box .search_field .fa {
+        top: 9px;
+        right: 11px;
+        font-size: 20px;
+        color: #969696;
+        cursor: pointer;
+    }
+
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+
+    #wish_h {
+        display: none;
+    }
+
+    #cart_h {
+        display: none;
+    }
+
+    #user_h {
+        display: none;
+    }
+
+    #dex_logo {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        height: 50px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .flaticon-profile-user:hover {
+        color: #000;
+    }
+
+
+
+    /*========== Navbar part start ==========*/
+    .navbar {
+        border-bottom: 1px solid #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        transition: all linear .4s;
+        z-index: 9999;
+        padding-top: 18px;
+        padding-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        color: #000;
+        font-size: 26px;
+    }
+
+    .navbar-nav .nav-item {
+        background: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        transition: all linear .3s;
+        padding: 10px 20px;
+        border-left: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #bt-3 {
+        box-shadow: 0px 0px 5px 2px #ddd;
+    }
+
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+
+    .pat-3 {
+        padding-top: 20px;
+    }
+
+
+
+    
+    /*=========== Mob_footer part start ===========*/
+    #mob_footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0px;
+        background: #fff;
+        z-index: 999;
+        border-top: 2px solid #ddd;
+    }
+    .fot_menu a {
+        line-height: 30px;
+        font-size: 30px;    
+        color: #ff9900;
+        padding-right: 15px;
+    }
+    .fot_menu a:hover {
+        color: #000;
+    }
+    
+    
+    
+    
+    
+    
+    /*=========== Banner part start ===========*/
+
+    #banner {
+        top: 113px;
+    }
+
+    #banner {
+        position: relative;
+        background: #f7f7f7;
+        padding-top: 29px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .t-right {
+        text-align: center;
+    }
+
+    .banner-item h1 {
+        font-size: 17px;
+        font-weight: 800;
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    .banner-item h6 {
+        font-size: 12px;
+    }
+
+    .banner-item p {
+        font-size: 14px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .banner_slider1 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .banner_slider2 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .slick-dots li {
+        width: 21px;
+    }
+
+    .slick-dots li.slick-active button {
+        width: 16px;
+    }
+
+    .slick-dots {
+        bottom: -23px;
+    }
+
+    /*=========== menu2 part start ===========*/
+    .menu2 {
+        margin-top: 30px;
+        margin-right: 16px;
+    }
+
+    /*=========== shop part start ===========*/
+    #shop {
+        padding-top: 83px;
+    }
+
+    .about-btn {
+        margin-bottom: 0;
+    }
+
+    .shop-hadding h3 {
+        font-size: 20px;
+        color: #000;
+    }
+
+    .shop-item {
+        height: auto;
+    }
+
+    .icon {
+        top: -38px;
+    }
+
+    /*=========== Footer part start ===========*/
+    #footer {
+        padding-top: 30px;
+    }
+
+    .pl_1 {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .pl_2 {
+        padding-left: 0;
+    }
+
+    #copyright {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    #cart main {
+        padding-top: 160px;
+    }
+    #checkout #your_cart {
+        padding-top: 160px;
+    }
+
+}
+
+
+
+
+
+
+/*=========================== Extra small 2 devices 
+=======================================================================*/
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+    /*========== Top_hadding part start ==========*/
+    #top_hadding {
+        top: 41px;
+        padding-top: 11px;
+        padding-bottom: 26px;
+    }
+
+    .logo a img {
+        padding-top: 0;
+    }
+
+    .logo {
+        width: 24%;
+    }
+
+    .search_box {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .search_box .dropdown {
+        width: 116px;
+    }
+
+    .menu {
+        position: relative;
+        top: 16px;
+        display: inline block;
+    }
+
+    .search_box .search_field .input {
+        width: 78%;
+        height: 100%;
+        border: 0px;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        left: -13px;
+    }
+
+    .search_box .search_field .fa {
+        top: 9px;
+        right: 11px;
+        font-size: 20px;
+        color: #969696;
+        cursor: pointer;
+    }
+
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+
+    #wish_h {
+        display: none;
+    }
+
+    #cart_h {
+        display: none;
+    }
+
+    #user_h {
+        display: none;
+    }
+
+    #dex_logo {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        height: 50px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+
+    /*========== Navbar part start ==========*/
+    .navbar {
+        border-bottom: 1px solid #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        transition: all linear .4s;
+        z-index: 9999;
+        padding-top: 18px;
+        padding-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        color: #000;
+        font-size: 26px;
+    }
+
+    .navbar-nav .nav-item {
+        background: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        transition: all linear .3s;
+        padding: 10px 20px;
+        border-left: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #bt-3 {
+        box-shadow: 0px 0px 5px 2px #ddd;
+    }
+
+    .navbarSupportedContent {
+        padding-top: 30px;
+    }
+
+    .pat-3 {
+        padding-top: 20px;
+    }
+
+    .last_c {
+        border-right: 0px;
+    }
+
+
+    /*=========== Mob_footer part start ===========*/
+    #mob_footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0px;
+        background: #fff;
+        z-index: 999;
+        border-top: 2px solid #ddd;
+    }
+    .fot_menu a {
+        line-height: 30px;
+        font-size: 30px;    
+        color: #ff9900;
+        padding-right: 15px;
+    }
+    .fot_menu a:hover {
+        color: #000;
+    }
+
+    /*=========== Banner part start ===========*/
+
+    #banner {
+        top: 113px;
+    }
+
+    #banner {
+        position: relative;
+        background: #f7f7f7;
+        padding-top: 29px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .t-right {
+        text-align: center;
+    }
+
+    .banner-item h1 {
+        font-size: 17px;
+        font-weight: 800;
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    .banner-item h6 {
+        font-size: 12px;
+    }
+
+    .banner-item p {
+        font-size: 14px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .banner_slider1 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .banner_slider2 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .slick-dots li {
+        width: 21px;
+    }
+
+    .slick-dots li.slick-active button {
+        width: 16px;
+    }
+
+    .slick-dots {
+        bottom: -23px;
+    }
+
+    /*=========== menu2 part start ===========*/
+    .menu2 {
+        margin-top: 30px;
+        margin-right: 16px;
+    }
+
+    /*=========== shop part start ===========*/
+    #shop {
+        padding-top: 83px;
+    }
+
+    .about-btn {
+        margin-bottom: 0;
+    }
+
+    .shop-hadding h3 {
+        font-size: 20px;
+        color: #000;
+    }
+
+    .shop-item {
+        height: auto;
+    }
+
+    .h_tshart .shop-item {
+        height: 347px;
+    }
+
+    /*=========== Footer part start ===========*/
+    #footer {
+        padding-top: 30px;
+    }
+
+    .pl_1 {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .pl_2 {
+        padding-left: 0;
+    }
+
+    #copyright {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    #cart main {
+        padding-top: 160px;
+    }
+    #checkout #your_cart {
+        padding-top: 160px;
+    }
+
+
+
+
+}
+
+
+
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*========== Top_hadding part start ==========*/
+    #top_hadding {
+        top: 41px;
+        padding-top: 11px;
+        padding-bottom: 26px;
+    }
+
+    .logo a img {
+        padding-top: 0;
+    }
+
+    .logo {
+        width: 24%;
+    }
+
+    .search_box {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .search_box .dropdown {
+        width: 116px;
+    }
+
+    .menu {
+        position: relative;
+        top: 16px;
+        display: inline block;
+    }
+
+    .search_box .search_field .input {
+        width: 78%;
+        height: 100%;
+        border: 0px;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        left: -13px;
+    }
+
+    .search_box .search_field .fa {
+        top: 9px;
+        right: 11px;
+        font-size: 20px;
+        color: #969696;
+        cursor: pointer;
+    }
+
+    .flaticon-profile-user {
+        line-height: 30px;
+        font-size: 30px;
+        color: #ff9900;
+        padding-right: 15px;
+    }
+
+    #wish_h {
+        display: none;
+    }
+
+    #cart_h {
+        display: none;
+    }
+
+    #user_h {
+        display: none;
+    }
+
+    #dex_logo {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        height: 50px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+
+    /*========== Navbar part start ==========*/
+    .navbar {
+        border-bottom: 1px solid #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        transition: all linear .4s;
+        z-index: 9999;
+        padding-top: 18px;
+        padding-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #000;
+        border: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .fa.fa-bars {
+        color: #000;
+        font-size: 26px;
+    }
+
+    .navbar-nav .nav-item {
+        background: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        transition: all linear .3s;
+        padding: 10px 20px;
+        border-left: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #bt-3 {}
+
+    .navbar-collapse ul {
+        margin-top: 30px;
+    }
+
+    .pat-3 {
+        box-shadow: 0px 0px 5px 2px #ddd;
+    }
+
+    .last_c {
+        border-right: 0px;
+    }
+
+    
+    /*=========== Mob_footer part start ===========*/
+    #mob_footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0px;
+        background: #fff;
+        z-index: 999;
+        border-top: 2px solid #ddd;
+    }
+    .fot_menu a {
+        line-height: 30px;
+        font-size: 30px;    
+        color: #ff9900;
+        padding-right: 15px;
+    }
+    .fot_menu a:hover {
+        color: #000;
+    }
+    
+
+    /*=========== Banner part start ===========*/
+
+    #banner {
+        top: 113px;
+    }
+
+    #banner {
+        position: relative;
+        background: #f7f7f7;
+        padding-top: 29px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .t-right {
+        text-align: center;
+    }
+
+    .banner-item h1 {
+        font-size: 17px;
+        font-weight: 800;
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    .banner-item h6 {
+        font-size: 12px;
+    }
+
+    .banner-item p {
+        font-size: 14px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .banner_slider1 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .banner_slider2 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .slick-dots li {
+        width: 21px;
+    }
+
+    .slick-dots li.slick-active button {
+        width: 16px;
+    }
+
+    .slick-dots {
+        bottom: -23px;
+    }
+
+    /*=========== menu2 part start ===========*/
+    .menu2 {
+        margin-top: 30px;
+        margin-right: 16px;
+    }
+
+    /*=========== shop part start ===========*/
+    #shop {
+        padding-top: 83px;
+    }
+
+    .about-btn {
+        margin-bottom: 0;
+    }
+
+    .shop-hadding h3 {
+        font-size: 20px;
+        color: #000;
+    }
+
+    .shop-item {
+        height: 286px;
+    }
+
+
+    /*=========== Footer part start ===========*/
+    #footer {
+        padding-top: 30px;
+    }
+
+    .pl_1 {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .pl_2 {
+        padding-left: 0;
+    }
+
+    #copyright {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    #cart main {
+        padding-top: 160px;
+    }
+
+
+
+
+}
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*========== Search-box part start ==========*/
+    .search_box {
+        width: 374px;
+    }
+
+    .search_box .search_field .input {
+        width: 83%;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        left: -38px;
+    }
+
+    .search_box .search_field .fa {
+        top: 7px;
+        right: 15px;
+    }
+
+    .search_box .dropdown {
+        width: 128px;
+    }
+
+    .search_box .dropdown ul li {
+        display: block;
+    }
+
+    .search_box .dropdown ul {
+        width: 129px;
+    }
+
+    /*========== navbar part start ==========*/
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar #account_n {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+        padding: 10px 9px;
+    }
+    /*========== navbar part start ==========*/
+    .pl_1 {
+        padding-left: 0;
+    }
+    .pl_2 {
+        padding-left: 50px;
+    }
+    
+    
+    
+    
+    
+    
+
+
+
+}
+
+/*============================ Large devices 
+=========================================================================*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu ul li a {
+        padding-left: 7px;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar #account_n {
+        display: none;
+    }
+
+    .shop-item {
+        height: 283px;
+    }
+
+    .h_tshart .shop-item {
+        height: 247px;
+    }
+
+    .pl_2 {
+        padding-left: 127px;
+    }
+
+    .menu2 ul li a {
+        padding: 0;
+    }
+
+    .search_box {
+        width: 714px;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .pat-3 {
+        padding-top: 0;
+    }
+
+
+
+}
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) {
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar #account_n {
+        display: none;
+    }
+
+}
